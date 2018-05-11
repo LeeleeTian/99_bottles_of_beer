@@ -1,8 +1,23 @@
 {
+  "name": "99_bottles_of_beer",
+  "version": "1.0.0",
+  "description": "The beersong\r In this puzzle, write code to print out the entire \"99 bottles of beer on the wall\" song.\r For those who do not know the song, the lyrics follow this form:",
+  "main": "app.js",
   "scripts": {
-    "test": "jasmine-node --verbose specs"
+    "start": "node app.js",
+    "test": "node run-tests.js"
   },
-  "dependencies": {
-    "jasmine-node": "1.14.5"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tws-online-quiz/99_bottles_of_beer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tws-online-quiz/99_bottles_of_beer/issues"
+  },
+  "homepage": "https://github.com/tws-online-quiz/99_bottles_of_beer#readme",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
   }
 }
